@@ -1,0 +1,2 @@
+# exclude Django migrations
+**/migrations/*.py

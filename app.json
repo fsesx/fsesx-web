@@ -1,0 +1,19 @@
+{
+  "name": "FSE Stock Exchange",
+  "description": "FSEconomy Stock Exchange",
+  "image": "heroku/python",
+  "repository": "https://github.com/fsesx/fsesx-web",
+  "scripts": {},
+  "env": {
+    "DJANGO_SETTINGS_MODULE": {
+      "required": true
+    },
+    "SECRET_KEY": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "buildpacks": []
+}
